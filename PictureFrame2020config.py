@@ -65,7 +65,7 @@ parse.add_argument(      "--delay_exif",    default=True, type=str_to_bool, help
 parse.add_argument(      "--locale",        default="de_DE.UTF-8", help="set the locale")
 parse.add_argument(      "--load_geoloc",   default=True, type=str_to_bool, help="load geolocation code")
 parse.add_argument(      "--geo_key",       default="pictureframe_says_hello", help="set the Nominatim key - change to something unique to you")
-parse.add_argument(      "--zoom",          default=18, type=int, help="Level of adress detail(3=country...18=building): 3,5,8,10,14,16,17,18")
+parse.add_argument(      "--zoom",          default=10, type=int, help="Level of adress detail(3=country...18=building): 3,5,8,10,14,16,17,18")
 parse.add_argument(      "--geo_path",      default="/home/pi/PictureFrame2020gpsdata.txt", help="set the local file to store data from geopy - ignored if --load_geoloc is not true")
 parse.add_argument(      "--display_x",     default=0, type=int, help="offset from left of screen (can be negative)")
 parse.add_argument(      "--display_y",     default=0, type=int, help="offset from top of screen (can be negative)")
